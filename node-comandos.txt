@@ -1,4 +1,11 @@
-﻿-- inicia projeto
+﻿-- Permitir executar Scripts
+Get-ExecutionPolicy
+Set-ExecutionPolicy AllSigned
+ou
+Set-ExecutionPolicy Unrestricted
+
+
+-- inicia projeto
 npm init -y
 
 -- instala express 
@@ -37,3 +44,10 @@ npm install require-dir
 
 -- instala controle de acesso Cors
 npm install cors
+
+-- instala controle de paginação nas consultas
+npm install mongoose-paginate-v2
+
+-- geração de documentação da api com apidoc
+npm install apidoc -g
+apidoc -f routes.js -o public/apidoc
