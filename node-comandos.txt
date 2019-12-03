@@ -1,0 +1,39 @@
+﻿-- inicia projeto
+npm init -y
+
+-- instala express 
+npm install express
+
+-- roda a aplicação. "server" é o nome do arquivo principal
+node server.js
+
+-- instala nodemon que atualiza automaticamente as alterações hot reload. -D para ser dependencia somente do ambiente de desenvolvimento, não é instalado no cliente.
+npm install -D nodemon 
+
+-- alterar pakage.js para adicionar um item no Scripts "dev": "nodemon server.js"
+-- roda este comando no lugar de node server.js para executar com o nodemon
+npm run dev
+
+-- instalar docker sem utilizar linux
+-- baixa imagem docker do mongo
+docker pull mongo 
+
+-- roda docker com o mongo. -p indica que a porta 27017 do meu pc vai acessar a 27017 do mongodb. -d é a imagem que baixei
+docker run --name mongodb -p 27017:27017 -d mongo 
+
+-- Baixar Robo 3T para acessar o banco mongo 
+
+-- inicia docker com o mongo 
+docker start mongodb
+
+-- mostra todas a imagens docker
+docker ps -a
+
+-- instala ORM mongoose 
+npm install mongoose
+
+-- instala ferramenta que faz require de todas as model do projeto automaticamente
+npm install require-dir
+
+-- instala controle de acesso Cors
+npm install cors
