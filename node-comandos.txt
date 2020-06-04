@@ -4,6 +4,8 @@ Set-ExecutionPolicy AllSigned
 ou
 Set-ExecutionPolicy Unrestricted
 
+-- Instalar versão específica do node pelo chocolatey
+choco install nodejs --version=10.16.3
 
 -- inicia projeto
 npm init -y
