@@ -13,6 +13,9 @@ npm init -y
 -- instala express 
 npm install express
 
+-- Como instalar um outro projeto, save guarda o projeto no Package. Usar npm update para atualizar o código do meuProjeto
+npm install --save ../meuProjeto
+
 -- roda a aplicação. "server" é o nome do arquivo principal
 node server.js
 
