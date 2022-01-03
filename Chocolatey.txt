@@ -15,3 +15,7 @@ choco install azure-functions-core-tools-3
 choco install azurestorageemulator
 choco install notepadplusplus
 choco install dotnetcore-sdk
+choco install visualstudio2019professional
+choco install dbeaver
+choco install servicebusexplorer
+choco install BloomRPC
