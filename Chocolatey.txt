@@ -2,7 +2,7 @@ choco install 7zip
 choco install git
 choco install docker
 choco install vscode
-choco install nodejs
+choco install nodejs-lts
 choco install mongodb
 choco install robo3t
 choco install postman
