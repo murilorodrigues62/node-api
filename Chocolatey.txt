@@ -22,3 +22,6 @@ choco install dbeaver
 choco install servicebusexplorer
 choco install BloomRPC
 choco install visualstudio2022professional
+choco install kubernetes-cli
+choco install keepass
+choco install gather
