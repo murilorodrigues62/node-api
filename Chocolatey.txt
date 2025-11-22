@@ -3,17 +3,21 @@ https://community.chocolatey.org/courses/installation/installing
 
 choco install 7zip
 choco install git
-choco install docker
+choco install spotify
+choco install powershell-core
+choco install microsoft-windows-terminal
+choco install teamviewer
+choco install python
+
 choco install vscode
 choco install nodejs-lts
 choco install mongodb
 choco install robo3t
 choco install postman
+choco install docker
 choco install skype
 choco install slack
-choco install spotify
-choco install powershell-core
-choco install microsoft-windows-terminal
+
 choco install azurestorageemulator
 choco install notepadplusplus
 choco install dotnetcore-sdk
@@ -24,3 +28,4 @@ choco install visualstudio2022professional
 choco install kubernetes-cli
 choco install keepass
 choco install gather
+
